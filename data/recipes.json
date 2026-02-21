@@ -1,26 +1,57 @@
-{
-  "recipes": [
-    "Ash Gourd Juice",
-    "Ash Coco Juice",
-    "Coconut Water",
-    "Mono Fruit Bowl",
-    "Pure Satvic Salad",
-    "Piña Colada Smoothie",
-    "Banana Date Shake",
-    "Tropical Smoothie",
-    "Satvic Khichadi",
-    "Satvic Daliya",
-    "Spinach Cheela",
-    "Moong Bowl",
-    "Vegetable Tikki",
-    "Green Chutney",
-    "Date Chutney",
-    "Coconut Chutney",
-    "Carrot Cumin Soup",
-    "Thai Curry with Brown Rice",
-    "Chocolate Smoothie Bowl",
-    "Blush Smoothie Bowl",
-    "Spinach Smoothie Bowl",
-    "Marigold Smoothie Bowl"
-  ]
-}
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Aglio e Olio",
+        "category": "Pasta",
+        "meal_type": "Dinner",
+        "serves": 2,
+        "healing_level": 2,
+        "digestibility": 3,
+        "grain_based": true,
+        "raw": false,
+        "contains_nuts_seeds": false,
+        "ingredients": [
+            "spaghetti",
+            "olive oil",
+            "garlic",
+            "red pepper flakes",
+            "parsley"
+        ],
+        "pre_preparation": "Boil water and cook the spaghetti according to package instructions.",
+        "method_steps": [
+            "Heat olive oil in a pan.",
+            "Add minced garlic and red pepper flakes, cook until fragrant.",
+            "Add the cooked spaghetti to the pan and toss to coat.",
+            "Garnish with parsley and serve."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Greek Salad",
+        "category": "Salad",
+        "meal_type": "Lunch",
+        "serves": 4,
+        "healing_level": 3,
+        "digestibility": 3,
+        "grain_based": false,
+        "raw": true,
+        "contains_nuts_seeds": false,
+        "ingredients": [
+            "cucumber",
+            "tomato",
+            "red onion",
+            "feta cheese",
+            "olives",
+            "olive oil",
+            "lemon juice",
+            "oregano"
+        ],
+        "pre_preparation": "Chop all vegetables into bite-sized pieces.",
+        "method_steps": [
+            "Combine all ingredients in a bowl.",
+            "Drizzle with olive oil and lemon juice.",
+            "Season with oregano and serve."
+        ]
+    }
+    // Add the remaining 43 recipes here
+]
